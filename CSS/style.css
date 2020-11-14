@@ -1,0 +1,208 @@
+/* Taille de la page selon PS : 1200 X 2400 */
+*{
+    box-sizing: border-box; 
+    width: 1200;
+    height: 2400;
+    background-color: #efeeea;
+}
+
+/* header : position en haut à gauche*/
+header {
+    margin: 24px auto 32px auto;
+}
+
+#logo{
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 50px;
+
+}
+header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* menu nav : stylisation -- couleur de la police vérifiée avec PSD*/
+header nav ul li {
+    list-style-type: none;
+}
+
+header nav ul li a {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color:#635756;
+    background-color: #f1f1ee;
+    padding: 10px;
+}
+
+header nav ul li a:hover {
+    background-color: #635756;
+    color: #f1f1ee;
+}
+
+/*section premier bloc*/
+
+section article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    width: 1000px;
+    box-shadow: 2px 2px 10px #e2e2de;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.image{
+    width: 500px;
+    height: 600px;
+}
+
+#contenu {
+    width: 500px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 70px 30px 60px 30px;
+    background-color: #ffffff;
+}
+
+article time{
+    text-transform: uppercase;
+    position: relative;
+    top: -40px;
+    right: -265px;
+    width: 180px;
+    padding: 2px 2px 2px 2px;
+    background-color: #ffffff;
+
+}
+
+article h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 26px;
+    font-weight: 700;
+    background-color: #ffffff;
+
+}
+
+article p {
+    font-size: 16px;
+    background-color: #ffffff;
+
+}
+
+article .categorie {
+    text-transform: uppercase;
+    text-decoration: none;
+    color:#635756;
+    background-color: #f1f1ee;
+    display: flex;
+    position: relative;
+    bottom: -70px;
+    width:120px; 
+    height: 30px;
+    padding: 4px;
+
+}
+
+.categorie:hover{
+    background-color: #635756;
+    color: #f1f1ee;
+}
+
+#fanion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+/* Pagination */
+
+.pagination {
+    text-align: center;
+}
+
+.pagination a {
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #a59d9b;
+    color: #f4f4f3;
+    padding: 10px;
+}
+
+.pagination a:hover {
+    display: inline-block;
+    background-color: #5a4a4a;
+    color:#f4f4f3 ;
+    font-size: 16px;
+}
+
+/* Ligne de séparation */
+
+hr {
+    margin-top: 50px;
+    width: 1000px;
+}
+/* Footer */
+
+#piedDePage{
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+.copyright{
+    width: 500px;
+    color: #594a4a;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+.infosAgence {
+    height: 70px;
+}
+.nomAgence {
+    margin-left:110px;
+    color: #594a4a;
+}
+
+.pageslegales {
+    width: 500px
+}
+footer ul {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -59px;
+}
+
+footer ul li {
+    list-style-type: none;
+}
+
+footer ul li a {
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+    word-spacing: 4px;
+    padding: 10px;
+    color:#635756;
+    
+}
+

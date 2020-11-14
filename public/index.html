@@ -1,54 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon titre optimisé pour le SEO</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../CSS/style.css'/>
+
+
+     <!--IMPLÉMENTATION CODE DE SUIVI GOOGLE ANALYTICS - AVEC CODE DE SUIVI FICTIF-->
+    <script type="text/javascript"> 
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ 
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), 
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) 
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); 
+        
+        ga('create', 'UA-XXXXXXXXXX-1', 'auto'); 
+        ga('require', 'displayfeatures'); ga('require', 'linkid', 'linkid.js'); ga('set', 'anonymizeIp', true); ga('send', 'pageview'); 
+        jQuery.mercure.init.analytics(); 
+    </script>
+
+    <!--IMPLÉMENTATION CODE DE SUIVI GOOGLE TAG MANAGER - AVEC CODE DE SUIVI FICTIF-->
+    <script>(function(w,d,s,l,i){w[1]||[];w[1].push({'gtml.start':new Date().getTime(),event:'gtml.js'});
+    var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),d1=1!='datalayer'?'&l='+1:'';j.async=true;j?src='https://www/googletagmanager.com/gtm.js?id='+i+dl:f/parentNode.insertBefore(j,f);})
+    (window,document,'script','datalayer','GTM-XXXXXXX');
+    </script>
+
+    <!--IMPLÉMENTATION DES DONNÉES STRUCTURÉES - DONNÉES FICTIVES UTILISÉES UNIQUEMENT POUR L'EXERCICES-->
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Exercice",
+        "author": "Roeun MAO",
+        "Address": {
+            "@type":"PostalAddress",
+            "addressLocality": "France",
+            "addressRegion": "Levallois-Perret",
+            "streetAddress": "41 rue Clément Bayard"
+        },
+        "description": "Ceci est un simple exercice d'intégration",
+        "name": "The Bridge Ecole Entreprises",
+        "telephone": "XXXXXXXXXX"}
+    </script>
 </head>
+
 <body>
+
+    <!--IMPLÉMENTATION CODE DE SUIVI GOOGLE TAG MANAGER - AVEC CODE DE SUIVI FICTIF-->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX"
+        height="0" wight="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
 
     <!--menu de navigation-->
     <header>
+        <div id="logo"><img src="../images/logo.png" alt="Logo de l'agence"/></div>
         <nav>
-            <a href="#">NOTRE REVOLUTION</a>
-            <a href="#">PARTAGE DE FRAIS</a>
-            <a href="#">TARIF</a>
-            <a href="#">BLOG</a>
-            <a href="#">CONTACT</a>
-            </nav>
+            <ul>
+                <li><a href="#">Notre révolution</a></li>
+                <li><a href="#">Partage de frais</a></li>
+                <li><a href="#">Tarifs</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
     <!--contenus textuels et images-->
     <main>
         <!--section premier bloc : image et texte-->
         <section>
-            <article>
-                <time></time>
-                <img src="../images/imagebloc1.jpg" alt="Boisson JUICE fruits rouges" width = 250 height=390/>
-                <h2>MON PREMIER JUS DE FRUIT PRÉFÉRÉ</h2>
-                <p>Hummmm il est trop bon :) </p>
-                </div"><a href="#">CATEGORIE #BEST BOISSON EVER</a></div>
+            <article>                
+                <div id="image"><img class="image" src="../images/imagebloc1.jpg" alt="Boisson JUICE fruits rouges"/></div>
+                <div id="contenu">
+                    <time>Le 11 Novembre 2020</time>
+                    <h2>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</h2>
+                    <p> Il est simplement un texte factice de l'industrie de l'impression et de la composition. 
+                        Lorem Ipsum est le texte factice standard de l'industrie depuis les années 1500, 
+                        quand un imprimeur inconnu a pris une galère de caractères et l'a brouillée pour en faire un livre de spécimens. 
+                        Il a survécu non seulement cinq siècles, mais aussi le saut dans la composition électronique, 
+                        demeurant essentiellement inchangé.Lorem Ipsum est le texte factice standard de l'industrie depuis les années 1500, 
+                        quand un imprimeur inconnu a pris une galère de caractères et l'a brouillée pour en faire un livre de spécimens. 
+                        Il a survécu non seulement cinq siècles, mais aussi le saut dans la composition électronique, 
+                        demeurant essentiellement inchangé </p>
+                    <a class="categorie" href="#">CATEGORIE 3</a>
+                    
+                </div>
             </article>
+            <div id="fanion"><img src="../images/fanionRose.png" alt="Fanion rose décoratif"/></div>
+            <br>
+            <article>                
+                <div id="image"><img class="image" src="../images/imagebloc2.jpg" alt="Boisson JUICE fruits blancs"/></div>
+                <div id="contenu">
+                    <time>Le 12 Novembre 2020</time>
+                    <h2>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</h2>
+                    <p> Il est simplement un texte factice de l'industrie de l'impression et de la composition. 
+                        Lorem Ipsum est le texte factice standard de l'industrie depuis les années 1500, 
+                        quand un imprimeur inconnu a pris une galère de caractères et l'a brouillée pour en faire un livre de spécimens. 
+                        Il a survécu non seulement cinq siècles, mais aussi le saut dans la composition électronique, 
+                        demeurant essentiellement inchangé.Lorem Ipsum est le texte factice standard de l'industrie depuis les années 1500, 
+                        quand un imprimeur inconnu a pris une galère de caractères et l'a brouillée pour en faire un livre de spécimens. 
+                        Il a survécu non seulement cinq siècles, mais aussi le saut dans la composition électronique, 
+                        demeurant essentiellement inchangé </p>
+                        <a class="categorie" href="#">CATEGORIE 3</a>
+
+                    <!--icon réseaux sociaux
+                    
+                    <div class="basArticle">  
+                    <a class="categorie" href="#">CATEGORIE 3</a>
+                    <img class="facebook" src="../images/iconFacebook.png" alt="Icône Facbook"/>
+                    <img class="twitter" src="../images/iconTwitter.png" alt="Icône Twitter"/>
+                    </div>
+                   -->
+                </div>
+            </article>
+            <div id="fanion"><img src="../images/fanionBleu.png" alt="Fanion rose décoratif"/></div>
+            <br>
+            <br>
+            <br>
+            <article>                
+                <div id="image"><img class="image" src="../images/imagebloc3.jpg" alt="Boisson JUICE fruits verts"/></div>
+                <div id="contenu">
+                    <time>Le 13 Novembre 2020</time>
+                    <h2>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</h2>
+                    <p> Il est simplement un texte factice de l'industrie de l'impression et de la composition. 
+                        Lorem Ipsum est le texte factice standard de l'industrie depuis les années 1500, 
+                        quand un imprimeur inconnu a pris une galère de caractères et l'a brouillée pour en faire un livre de spécimens. 
+                        Il a survécu non seulement cinq siècles, mais aussi le saut dans la composition électronique, 
+                        demeurant essentiellement inchangé.Lorem Ipsum est le texte factice standard de l'industrie depuis les années 1500, 
+                        quand un imprimeur inconnu a pris une galère de caractères et l'a brouillée pour en faire un livre de spécimens. 
+                        Il a survécu non seulement cinq siècles, mais aussi le saut dans la composition électronique, 
+                        demeurant essentiellement inchangé </p>
+                    <a class="categorie" href="#">CATEGORIE 3</a>
+                </div>
+            </article>
+            <div id="fanion"><img src="../images/fanionRose.png" alt="Fanion rose décoratif"/></div>
+            <br>
+            <br>
+            <br>
+            <article>                
+                <div id="image"><img class="image" src="../images/imagebloc4.jpg" alt="Boisson JUICE fruits jaunes"/></div>
+                <div id="contenu">
+                    <time>Le 14 Novembre 2020</time>
+                    <h2>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</h2>
+                    <p> Il est simplement un texte factice de l'industrie de l'impression et de la composition. 
+                        Lorem Ipsum est le texte factice standard de l'industrie depuis les années 1500, 
+                        quand un imprimeur inconnu a pris une galère de caractères et l'a brouillée pour en faire un livre de spécimens. 
+                        Il a survécu non seulement cinq siècles, mais aussi le saut dans la composition électronique, 
+                        demeurant essentiellement inchangé.Lorem Ipsum est le texte factice standard de l'industrie depuis les années 1500, 
+                        quand un imprimeur inconnu a pris une galère de caractères et l'a brouillée pour en faire un livre de spécimens. 
+                        Il a survécu non seulement cinq siècles, mais aussi le saut dans la composition électronique, 
+                        demeurant essentiellement inchangé </p>
+                    <a class="categorie" href="#">CATEGORIE 3</a>
+                </div>
+            </article>
+            <div id="fanion"><img src="../images/fanionBleu.png" alt="Fanion rose décoratif"/></div>
+            <br>
+            <br>
+            <br>
         </section>
 
-        <div>
+        <!--pagination-->
+        <div class="pagination">
             <a href="#">Précédent</a>
             <a href="#">Suivant</a> 
            </div>
     </main>
 
+        <!--ligne de séparation-->
+        <hr>
+
     <!--pied de page avec infos éditeur et pages d'infos légales-->
-    <footer>
-        <div>
-            <div><p><b>Wedrive - tous droits réservés</b></p>
-            <br><p>Design agence Wype</p></div>
-            <div>
-            <a href="#">Mentions légales</a>
-            <a href="#">Conditions générales</a>
-            <a href="#">Presse</a>
-            <a href="#">Contact</a>
-            </div>
-        </div>
+    <footer id="piedDePage">
+            <div class="infosAgence"><p class="copyright"> Wedrive - © 2013 tous droits réservés</p><p class="nomAgence">Design agence Wype</p></div>
+            <div class="pageslegales">
+               <ul>
+                   <li><a href="#">Mentions légales</a></li>
+                   <li><a href="#">Conditions générales</a></li>
+                   <li><a href="#">Presse</a></li>
+                   <li><a href="#">Contact</a></li>
+               </ul>
+           </div>
     </footer>
 
 </body>
