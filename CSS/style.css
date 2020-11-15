@@ -54,14 +54,14 @@ section article {
     height: 600px;
     width: 1000px;
     box-shadow: 2px 2px 10px #e2e2de;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     
 }
 
 .image{
     width: 500px;
     height: 600px;
+    margin-top: 5px;
 }
 
 #contenu {
@@ -69,7 +69,7 @@ section article {
     height: 600px;
     display: flex;
     flex-direction: column;
-    padding: 70px 30px 60px 30px;
+    padding: 50px 30px 60px 30px;
     background-color: #ffffff;
 }
 
@@ -85,10 +85,16 @@ article time{
 }
 
 article h2{
-    text-transform: uppercase;
     font-weight: bold;
     font-size: 26px;
     font-weight: 700;
+    background-color: #ffffff;
+
+}
+
+article span{
+    font-size: 18px;
+    font-weight: 500;
     background-color: #ffffff;
 
 }
@@ -106,7 +112,7 @@ article .categorie {
     background-color: #f1f1ee;
     display: flex;
     position: relative;
-    bottom: -70px;
+    bottom: -30px;
     width:120px; 
     height: 30px;
     padding: 4px;
